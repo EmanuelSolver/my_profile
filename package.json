@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://EmanuelSolver.github.io/my_profile",
+  "homepage": "https://EmanuelSolver.github.io/my_profile",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://EmanuelSolver.github.io/my_profile'",
+    "build-gh": "parcel build --public-url 'https://EmanuelSolver.github.io/my_profile'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
